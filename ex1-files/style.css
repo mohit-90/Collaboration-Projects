@@ -1,0 +1,100 @@
+.navigation a {
+	/*color: #FFF;
+  text-decoration: none;*/
+  border-bottom: transparent solid 1px;
+  /*padding-bottom: 5px;*/
+  font: National-Bold #000000 14px;
+}
+
+.blueprint {
+	background-image: url("../ex1-files/sample1.jpg");
+	background-size: cover;
+  background-position: bottom center;
+  height: 700px;
+  width: 100%;
+}
+
+.blueprint .content .word {
+	font-style: Klavika-Medium;
+	color: rgb(0,0,0);
+	font-size: 60px;
+	position: relative;
+	top: 83px;
+}
+
+.blueprint .content .link {
+	position: relative;
+	font-style: National-Regular;
+	color: rgb(255,255,255);
+	font-size: 27px;
+}
+
+.linkbox {
+	background-color: solid #e99c40;
+}
+
+.image {
+	background-image: url("../ex1-files/sample2.jpg")
+}
+
+.button {
+	background-color: rgb(233, 156, 64);
+	stroke: rgb(247, 172, 59);
+}
+
+.button:hover {
+	background-color: rgb(181, 119, 51);
+}
+
+.button.click {
+	background-color: rgb(63, 63, 63);
+	stroke: rgb(0,0,0);
+}
+
+.fa {
+  padding: 15px;
+  font-size: 100px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 5px;
+}
+
+.footer {
+	height: 97px;
+	background-color: black;
+	color: white;
+}
+
+.copyright {
+	text-align: left;
+	padding: 5px;
+	margin: 5px 5px;
+	width: 650px;
+	height: 75px;
+}
+
+.social {
+	float: right;
+	width:650px;
+}
+
+.social .fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.social .fa-vimeo {
+	background: #45bbff;
+	color: white;
+}
+
+.social .fa-tumblr {
+	background: #2c4762;
+	color: white;
+}
+
+.social .fa-youtube {
+	background: #bb0000;
+	color: white;
+}
