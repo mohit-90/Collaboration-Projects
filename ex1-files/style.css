@@ -1,9 +1,24 @@
-.navigation a {
-	/*color: #FFF;
-  text-decoration: none;*/
-  border-bottom: transparent solid 1px;
-  /*padding-bottom: 5px;*/
-  font: National-Bold #000000 14px;
+.navigation {
+  height: 46px;
+}
+
+.navigation .logo {
+	float: left;
+	padding-top: 16px;
+	padding-left: 36px;
+}
+
+.navigation .items {
+	padding-top: 19px;
+	width: 60%;
+	float: right;
+}
+
+.items a {
+	font-size: 14px;
+	color: rgb(0,0,0);
+	font: National-Bold;
+	text-align: center;
 }
 
 .blueprint {
@@ -32,10 +47,6 @@
 .linkbox {
 	background-color: solid #e99c40;
 }
-
-/*.image {
-	background-image: url("../ex1-files/sample2.jpg")
-}*/
 
 .dividepage {
   height:8px;
@@ -142,16 +153,12 @@
 }
 
 .footer .copyright {
-	/*text-align: center;*/
 	vertical-align: middle;
-
 	line-height: 100px;
-	/*padding: 5px;*/
-	/*margin: 5px 5px;*/
 	width: 50%;
 	height: 100%;
 	float: left;
-	/*height: 75px;*/
+
 }
 
 .footer .social {
