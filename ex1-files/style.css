@@ -33,11 +33,86 @@
 	background-color: solid #e99c40;
 }
 
-.image {
+/*.image {
 	background-image: url("../ex1-files/sample2.jpg")
+}*/
+
+.dividepage {
+  height:8px;
+ 	background-color: black;
 }
 
-.button {
+.secondsection {
+	height: 330px;
+}
+
+.secondimage {
+	float: left;
+	width: 50%;
+	height: 80%;
+}
+
+.secondimage img {
+	position: relative;
+	top: 55px;
+	left: 35px;
+	right: 5px;
+	width: 50%;
+	height: 50%;
+}
+
+.events {
+	float: right;
+	width: 50%;
+	height: 80%;
+}
+
+.events .heading {
+	top: 44px;
+	font: National-Bold;
+	font-size: 36px;
+	color: rgb(26,26,26);
+}
+
+.events .ds1 {
+	padding-top: 1px;
+	padding-bottom: 25px;
+}
+
+.events .title {
+	font: National-Regular;
+	font-size: 27px;
+	color: rgb(26,26,26);
+}
+
+.events .desc {
+	font: National-Regular;
+	font-size: 16px;
+	color: rgb(26,26,26);
+}
+
+.events .ds2 {
+	padding-top: 26px;
+	padding-bottom: 27px;
+}
+
+.secondsection .text {
+	clear: both;
+	padding-left: 35px;
+	padding-bottom: 50px;
+	font: National-Bold;
+	font-size: 20px;
+	color: rgb(0,0,0);
+}
+
+.signup {
+	padding-top: 27px;
+	width: 100%;
+}
+
+.signup .button {
+	width: 100%;
+	display: block;
 	background-color: rgb(233, 156, 64);
 	stroke: rgb(247, 172, 59);
 }
@@ -66,17 +141,23 @@
 	color: white;
 }
 
-.copyright {
-	text-align: left;
-	padding: 5px;
-	margin: 5px 5px;
-	width: 650px;
-	height: 75px;
+.footer .copyright {
+	/*text-align: center;*/
+	vertical-align: middle;
+
+	line-height: 100px;
+	/*padding: 5px;*/
+	/*margin: 5px 5px;*/
+	width: 50%;
+	height: 100%;
+	float: left;
+	/*height: 75px;*/
 }
 
-.social {
+.footer .social {
 	float: right;
-	width:650px;
+	width:50%;
+	height: 100%;
 }
 
 .social .fa-facebook {
