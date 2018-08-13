@@ -3,155 +3,155 @@ nav {
 }
 
 nav .logo {
-	float: left;
-	padding-top: 16px;
-	padding-left: 36px;
-	box-sizing: border-box;
+  float: left;
+  padding-top: 16px;
+  padding-left: 36px;
+  box-sizing: border-box;
 }
 .logo a {
-	text-decoration: none;
+  text-decoration: none;
 }
 .header-actions {
-	padding-top: 19px;
-	width: 60%;
-	float: right;
-	text-align: right;
-	box-sizing: border-box;
+  padding-top: 19px;
+  width: 60%;
+  float: right;
+  text-align: right;
+  box-sizing: border-box;
 }
 
 .header-actions a {
-	padding-left: 25px;
-	padding-right: 25px;
-	text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none;
 }
 
 .header-actions a:hover {
-	text-decoration: underline;
-	border-bottom: solid 4px black;
-	text-align: center;
+  text-decoration: underline;
+  border-bottom: solid 4px black;
+  text-align: center;
 }
 
 .items a {
-	font-size: 14px;
-	color: rgb(0,0,0);
-	font: National-Bold;
-	text-align: center;
+  font-size: 14px;
+  color: rgb(0,0,0);
+  font: National-Bold;
+  text-align: center;
 }
 
 .blueprint {
-	background-image: url("../ex1-files/sample1.jpg");
-	background-size: cover;
+  background-image: url("../ex1-files/sample1.jpg");
+  background-size: cover;
   background-position: bottom center;
   height: 700px;
   width: 100%;
 }
 
 .blueprint .content .word {
-	font-style: Klavika-Medium;
-	color: rgb(0,0,0);
-	font-size: 60px;
-	position: relative;
-	top: 83px;
+  font-style: Klavika-Medium;
+  color: rgb(0,0,0);
+  font-size: 60px;
+  position: relative;
+  top: 83px;
 }
 
 .blueprint .content .link {
-	position: relative;
-	font-style: National-Regular;
-	color: rgb(255,255,255);
-	font-size: 27px;
+  position: relative;
+  font-style: National-Regular;
+  color: rgb(255,255,255);
+  font-size: 27px;
 }
 
 .linkbox {
-	background-color: solid #e99c40;
+  background-color: solid #e99c40;
 }
 
 .dividepage {
   height:8px;
- 	background-color: black;
+  background-color: black;
 }
 
 .secondsection {
-	height: 330px;
+  height: 330px;
 }
 
 .secondimage {
-	float: left;
-	width: 50%;
-	height: 80%;
+  float: left;
+  width: 50%;
+  height: 80%;
 }
 
 .secondimage img {
-	position: relative;
-	top: 55px;
-	left: 35px;
-	right: 5px;
-	width: 50%;
-	height: 50%;
+  position: relative;
+  top: 55px;
+  left: 35px;
+  right: 5px;
+  width: 50%;
+  height: 50%;
 }
 
 .events {
-	float: right;
-	width: 50%;
-	height: 80%;
+  float: right;
+  width: 50%;
+  height: 80%;
 }
 
 .events .heading {
-	top: 44px;
-	font: National-Bold;
-	font-size: 36px;
-	color: rgb(26,26,26);
+  top: 44px;
+  font: National-Bold;
+  font-size: 36px;
+  color: rgb(26,26,26);
 }
 
 .events .ds1 {
-	padding-top: 1px;
-	padding-bottom: 25px;
+  padding-top: 1px;
+  padding-bottom: 25px;
 }
 
 .events .title {
-	font: National-Regular;
-	font-size: 27px;
-	color: rgb(26,26,26);
+  font: National-Regular;
+  font-size: 27px;
+  color: rgb(26,26,26);
 }
 
 .events .desc {
-	font: National-Regular;
-	font-size: 16px;
-	color: rgb(26,26,26);
+  font: National-Regular;
+  font-size: 16px;
+  color: rgb(26,26,26);
 }
 
 .events .ds2 {
-	padding-top: 26px;
-	padding-bottom: 27px;
+  padding-top: 26px;
+  padding-bottom: 27px;
 }
 
 .secondsection .text {
-	clear: both;
-	padding-left: 35px;
-	padding-bottom: 50px;
-	font: National-Bold;
-	font-size: 20px;
-	color: rgb(0,0,0);
+  clear: both;
+  padding-left: 35px;
+  padding-bottom: 50px;
+  font: National-Bold;
+  font-size: 20px;
+  color: rgb(0,0,0);
 }
 
 .signup {
-	padding-top: 27px;
-	width: 100%;
+  padding-top: 27px;
+  width: 100%;
 }
 
 .signup .button {
-	width: 100%;
-	display: block;
-	background-color: rgb(233, 156, 64);
-	stroke: rgb(247, 172, 59);
+  width: 100%;
+  display: block;
+  background-color: rgb(233, 156, 64);
+  stroke: rgb(247, 172, 59);
 }
 
 .button:hover {
-	background-color: rgb(181, 119, 51);
+  background-color: rgb(181, 119, 51);
 }
 
 .button.click {
-	background-color: rgb(63, 63, 63);
-	stroke: rgb(0,0,0);
+  background-color: rgb(63, 63, 63);
+  stroke: rgb(0,0,0);
 }
 
 .fa {
@@ -164,42 +164,42 @@ nav .logo {
 }
 
 .footer {
-	height: 97px;
-	background-color: black;
-	color: white;
+  height: 97px;
+  background-color: black;
+  color: white;
 }
 
 .footer .copyright {
-	vertical-align: middle;
-	line-height: 100px;
-	width: 50%;
-	height: 100%;
-	float: left;
+  vertical-align: middle;
+  line-height: 100px;
+  width: 50%;
+  height: 100%;
+  float: left;
 
 }
 
 .footer .social {
-	float: right;
-	width:50%;
-	height: 100%;
+  float: right;
+  width:50%;
+  height: 100%;
 }
 
 .social .fa-facebook {
-	background: #3B5998;
-	color: white;
+  background: #3B5998;
+  color: white;
 }
 
 .social .fa-vimeo {
-	background: #45bbff;
-	color: white;
+  background: #45bbff;
+  color: white;
 }
 
 .social .fa-tumblr {
-	background: #2c4762;
-	color: white;
+  background: #2c4762;
+  color: white;
 }
 
 .social .fa-youtube {
-	background: #bb0000;
-	color: white;
+  background: #bb0000;
+  color: white;
 }
