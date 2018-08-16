@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +15,6 @@ nav .logo {
   float: left;
   padding-top: 16px;
   padding-left: 36px;
-  box-sizing: border-box;
 }
 .logo a {
   text-decoration: none;
@@ -21,7 +24,6 @@ nav .logo {
   width: 60%;
   float: right;
   text-align: right;
-  box-sizing: border-box;
 }
 
 .header-actions a {
@@ -62,7 +64,6 @@ nav .logo {
   padding-top: 10px;
   padding-left: 36px;
   width: 50%;
-  box-sizing: border-box;
 }
 
 .blueprint .content .link {
@@ -77,18 +78,11 @@ span.blue-print {
   background-color: white
 }
 
-.secondsection {
-  /*height: 330px;*/
-  box-sizing: border-box;
-}
-
 .secondimage {
-  box-sizing: border-box;
   padding-top: 55px;
   padding-left: 35px;
   float: left;
   width: 70%;
-  /*height: 80%;*/
 }
 
 .secondimage img {
@@ -100,6 +94,7 @@ span.blue-print {
   float: left;
   width: 30%;
   padding-top: 44px;
+  padding-right: 10px;
 }
 
 .events .heading {
