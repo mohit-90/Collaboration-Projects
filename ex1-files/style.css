@@ -1,5 +1,6 @@
 body {
-  margin: 0%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -37,23 +38,20 @@ nav .logo {
 
 .items a {
   font-size: 14px;
-  color: rgb(0,0,0);
-  font-family: Arial, Helvetica, sans-serif;
+  color: black;
   text-align: center;
 }
 
 .blueprint {
-  background-image: url("../ex1-files/sample1.jpg");
+  background: url("../ex1-files/sample1.jpg") bottom center;
   background-size: cover;
-  background-position: bottom center;
   height: 700px;
   width: 100%;
   border-bottom: solid 8px black;
 }
 
 .blueprint .content .word {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(0,0,0);
+  color: black;
   font-size: 60px;
   position: relative;
   padding-top: 83px;
@@ -69,11 +67,14 @@ nav .logo {
 
 .blueprint .content .link {
   position: relative;
-  font-family: Arial, Helvetica, sans-serif;
   color: rgb(255,255,255);
   font-size: 27px;
   padding-left: 2px;
   background-color: #e99c40;
+}
+
+span.blue-print {
+  background-color: white
 }
 
 .secondsection {
@@ -103,7 +104,6 @@ nav .logo {
 
 .events .heading {
   top: 44px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 36px;
   color: rgb(26,26,26);
 }
@@ -113,14 +113,12 @@ nav .logo {
 }
 
 .ds1 .title {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 27px;
   color: rgb(26,26,26);
   padding-top: 20px;
 }
 
 .ds1 .desc {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: rgb(26,26,26);
   padding-top: 10px;
@@ -131,14 +129,12 @@ nav .logo {
 }
 
 .ds2 .title {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 27px;
   color: rgb(26,26,26);
   padding-top: 20px;
 }
 
 .ds2 .desc {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: rgb(26,26,26);
   padding-top: 10px;
@@ -154,9 +150,8 @@ nav .logo {
   padding-top: 10px;
   padding-left: 35px;
   padding-bottom: 50px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: rgb(0,0,0);
+  color: black;
 }
 
 .signup button {
@@ -174,7 +169,7 @@ button:hover {
 
 button.click {
   background-color: rgb(63, 63, 63);
-  stroke: rgb(0,0,0);
+  stroke: black;
 }
 
 .fa {
@@ -197,6 +192,10 @@ button.click {
   line-height: 100px;
   width: 50%;
   float: left;
+}
+
+span.copyright-text {
+  padding-left: 36px;
 }
 
 .footer .social {
