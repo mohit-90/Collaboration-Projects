@@ -10,6 +10,12 @@ HTML and CSS
 * Don't worry about the fonts, but try to match the padding and colors.
 * you can use any background image you want.
 
+## Exercise 2: ##
+
+Make it responsive
+
+* match designs to designs/ex2.png
+
 
 
 Good Luck!
