@@ -31,7 +31,7 @@ nav .logo {
 }
 
 .header-actions a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   border-bottom: solid 4px black;
   text-align: center;
 }
@@ -110,6 +110,7 @@ span.blue-print {
 
 .ds1 {
   padding-top: 1px;
+  padding-right: 5px;
 }
 
 .ds1 .title {
@@ -126,6 +127,7 @@ span.blue-print {
 
 .ds2 {
   padding-top: 51px;
+  padding-right: 5px;
 }
 
 .ds2 .title {
@@ -142,6 +144,7 @@ span.blue-print {
 
 .signup {
   padding-top: 54px;
+  padding-right: 5px;
   width: 100%;
 }
 
